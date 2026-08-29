@@ -341,172 +341,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3989,6 +3823,12 @@
 		(uuid "0fc25e68-236b-4074-89c1-f99a46290a45")
 	)
 	(junction
+		(at 259.08 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10d8bcf2-8b91-4526-a3a6-62a114ed90ec")
+	)
+	(junction
 		(at 167.64 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4095,6 +3935,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a6e6d45-f0c0-4b62-a8c5-b4a3fe94d169")
+	)
+	(junction
+		(at 247.65 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b7c945e-a3a3-43bb-9bb2-8a5a5ce701d1")
 	)
 	(junction
 		(at 219.71 95.25)
@@ -4229,12 +4075,6 @@
 		(uuid "e5fd8949-77c4-4a4c-a7d7-fb9e6394dd81")
 	)
 	(junction
-		(at 226.06 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6bf4899-a7c6-4d67-97a3-e18e97c57fbc")
-	)
-	(junction
 		(at 190.5 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4353,10 +4193,6 @@
 	(no_connect
 		(at 59.69 48.26)
 		(uuid "5de64ff6-33d6-4e05-a4fe-8a569524f25a")
-	)
-	(no_connect
-		(at 59.69 38.1)
-		(uuid "61f550a8-b640-4277-8da5-5767e384ab7f")
 	)
 	(no_connect
 		(at 34.29 35.56)
@@ -4543,6 +4379,16 @@
 			(type default)
 		)
 		(uuid "090a03a5-46b1-46f8-9783-7229e8a7909a")
+	)
+	(wire
+		(pts
+			(xy 259.08 144.78) (xy 247.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af660c4-e6e3-4a90-89bb-05a3b94fc82d")
 	)
 	(wire
 		(pts
@@ -4736,16 +4582,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 130.81) (xy 213.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bce9f56-dc0a-432e-86c6-e21a3cdb72fc")
-	)
-	(wire
-		(pts
 			(xy 214.63 41.91) (xy 237.49 41.91)
 		)
 		(stroke
@@ -4786,6 +4622,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 144.78) (xy 259.08 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d6657d-b400-4f22-8884-9a2403ce08fe")
+	)
+	(wire
+		(pts
 			(xy 234.95 95.25) (xy 237.49 95.25)
 		)
 		(stroke
@@ -4793,16 +4639,6 @@
 			(type default)
 		)
 		(uuid "345583ea-6d8e-4570-b4ab-03c3b30e34fa")
-	)
-	(wire
-		(pts
-			(xy 220.98 130.81) (xy 226.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35fff500-2a26-4908-aafa-cb409b1dd5cf")
 	)
 	(wire
 		(pts
@@ -4966,6 +4802,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 128.27) (xy 259.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ac3516-4c89-4bbf-97bc-70d5ef26ce0f")
+	)
+	(wire
+		(pts
 			(xy 114.3 95.25) (xy 115.57 95.25)
 		)
 		(stroke
@@ -4993,6 +4839,16 @@
 			(type default)
 		)
 		(uuid "59d161a4-5388-4026-ba11-d77884439810")
+	)
+	(wire
+		(pts
+			(xy 247.65 146.05) (xy 247.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b44b9fb-0e9d-4529-8de5-4efe981db89b")
 	)
 	(wire
 		(pts
@@ -5096,26 +4952,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 130.81) (xy 226.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b9ee8f4-cb6b-4fbb-8d59-9d8397611bdc")
-	)
-	(wire
-		(pts
-			(xy 234.95 130.81) (xy 237.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70e48640-2eab-4507-b6ec-29b26c218da5")
-	)
-	(wire
-		(pts
 			(xy 99.06 67.31) (xy 105.41 67.31)
 		)
 		(stroke
@@ -5133,6 +4969,16 @@
 			(type default)
 		)
 		(uuid "74b77f6f-f3fb-4236-a13c-43e1ee2befa6")
+	)
+	(wire
+		(pts
+			(xy 236.22 130.81) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7587a042-5f66-485e-83f9-4e5bd21d1be3")
 	)
 	(wire
 		(pts
@@ -5173,6 +5019,16 @@
 			(type default)
 		)
 		(uuid "7c38fa8f-fd84-45cf-92ab-f155c5e1fd61")
+	)
+	(wire
+		(pts
+			(xy 236.22 128.27) (xy 242.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e804d38-841b-42bc-8f38-2e2ca4d7aa93")
 	)
 	(wire
 		(pts
@@ -5496,6 +5352,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 128.27) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2e5e63-e904-4315-b391-8540a330d2ec")
+	)
+	(wire
+		(pts
 			(xy 190.5 73.66) (xy 190.5 95.25)
 		)
 		(stroke
@@ -5576,6 +5442,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6552aa9-ab5f-4fba-a43d-1e325ceb15c9")
+	)
+	(wire
+		(pts
 			(xy 187.96 95.25) (xy 187.96 97.79)
 		)
 		(stroke
@@ -5613,6 +5489,16 @@
 			(type default)
 		)
 		(uuid "bab7f514-2cd8-46a3-9dd3-90ccca664ba3")
+	)
+	(wire
+		(pts
+			(xy 236.22 144.78) (xy 247.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be94d18c-d3de-47a9-be19-25e040e1e442")
 	)
 	(wire
 		(pts
@@ -5703,6 +5589,16 @@
 			(type default)
 		)
 		(uuid "cada44b9-fa32-4b42-a7dd-48d71063d49d")
+	)
+	(wire
+		(pts
+			(xy 247.65 144.78) (xy 247.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1421ed-1abb-467b-a905-dc142590769b")
 	)
 	(wire
 		(pts
@@ -5923,16 +5819,6 @@
 			(type default)
 		)
 		(uuid "f592c97d-6ba2-49bb-8d14-b209ba93e9cd")
-	)
-	(wire
-		(pts
-			(xy 226.06 128.27) (xy 226.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6272c2f-d797-4349-91bc-c5040955efe1")
 	)
 	(wire
 		(pts
@@ -6605,6 +6491,84 @@
 		(uuid "fb229af2-dadf-4a39-a354-b8728ad39578")
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0205cead-8a17-4d94-a19a-13a218b6760b")
+		(property "Reference" "#PWR016"
+			(at 259.08 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 259.08 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ef23bb8-0f9b-4f49-9df8-c92b11d75232")
+		)
+		(instances
+			(project "LEDCUBE_VER0"
+				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 123.19 29.21 0)
 		(unit 1)
@@ -6758,6 +6722,84 @@
 			(project "LEDCUBE_VER0"
 				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0417f468-7cd4-4a48-82c2-29ea7b083df2")
+		(property "Reference" "#PWR021"
+			(at 247.65 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8df13b7-b0ab-4a90-abc3-8436c5260780")
+		)
+		(instances
+			(project "LEDCUBE_VER0"
+				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7348,84 +7390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 237.49 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0df54ef4-5274-499d-a610-abe83d14530e")
-		(property "Reference" "#PWR018"
-			(at 237.49 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "723b652f-9bec-4d62-9518-672773443556")
-		)
-		(instances
-			(project "LEDCUBE_VER0"
-				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 115.57 120.65 0)
 		(mirror y)
@@ -7499,84 +7463,6 @@
 			(project "LEDCUBE_VER0"
 				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21fea8e7-4a35-45dc-82a2-2237653f88de")
-		(property "Reference" "#PWR017"
-			(at 208.28 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "efa52456-d159-4a11-baa8-e354664862a8")
-		)
-		(instances
-			(project "LEDCUBE_VER0"
-				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7738,88 +7624,6 @@
 			(project "LEDCUBE_VER0"
 				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2715797d-b256-4673-b4ca-e63fbaf1906d")
-		(property "Reference" "R8"
-			(at 240.03 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "500"
-			(at 240.03 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 235.712 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd440181-f26b-4c59-82db-62a976686e4c")
-		)
-		(pin "2"
-			(uuid "2d084978-51d0-4abc-b560-5210946ae774")
-		)
-		(instances
-			(project "LEDCUBE_VER0"
-				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8569,6 +8373,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ed4f5dd-746c-40be-8d6a-23e7118b4256")
+		(property "Reference" "#PWR020"
+			(at 67.31 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8169aa88-8c10-4f77-9e34-a828b19c94be")
+		)
+		(instances
+			(project "LEDCUBE_VER0"
+				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_ARGB")
 		(at 214.63 46.99 90)
 		(unit 1)
@@ -8652,84 +8535,6 @@
 			(project "LEDCUBE_VER0"
 				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 226.06 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53ddf982-2657-4d7a-bc02-46a2a56fa0ca")
-		(property "Reference" "#PWR016"
-			(at 226.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bdce162-6484-47a5-b22b-1466209f4663")
-		)
-		(instances
-			(project "LEDCUBE_VER0"
-				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9217,86 +9022,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 217.17 130.81 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79dce50f-7f68-4a88-a648-51af4cca80d8")
-		(property "Reference" "D16"
-			(at 217.4875 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 217.4875 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_2114_3652Metric_Pad1.85x3.75mm_HandSolder"
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "106a269f-57d6-4b83-a3dd-74c59c90d6fd")
-		)
-		(pin "2"
-			(uuid "a3afae11-5cc9-409c-abf0-0b7becd3f29d")
-		)
-		(instances
-			(project "LEDCUBE_VER0"
-				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_ARGB")
 		(at 237.49 68.58 90)
 		(unit 1)
@@ -9387,7 +9112,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 203.2 130.81 0)
+		(at 231.14 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9397,7 +9122,7 @@
 		(dnp no)
 		(uuid "8323d7d5-c8aa-469f-bbd9-6d73b3da3a3f")
 		(property "Reference" "J1"
-			(at 204.47 128.016 0)
+			(at 232.41 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9407,7 +9132,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 203.835 128.27 0)
+			(at 231.775 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9418,7 +9143,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 203.2 130.81 0)
+			(at 231.14 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9429,7 +9154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 130.81 0)
+			(at 231.14 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9440,7 +9165,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 203.2 130.81 0)
+			(at 231.14 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9460,97 +9185,6 @@
 			(project "LEDCUBE_VER0"
 				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 231.14 130.81 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83aa2a6e-577f-43fc-9a3a-f92f06877553")
-		(property "Reference" "D17"
-			(at 232.7275 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 232.7275 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 231.14 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 231.14 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 231.14 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8d001fef-4eda-4356-83d5-2ab7c48d357e")
-		)
-		(pin "1"
-			(uuid "9c7b881e-7586-45f2-9056-69c295c72364")
-		)
-		(instances
-			(project "LEDCUBE_VER0"
-				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
-					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -9974,6 +9608,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 259.08 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba44b19-4077-42d4-8907-9e2b59f3a010")
+		(property "Reference" "D17"
+			(at 262.89 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 262.89 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 259.08 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 259.08 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 259.08 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8109ac59-79d2-4d3d-a271-a51daa7d170e")
+		)
+		(pin "1"
+			(uuid "9b72bbc3-846e-4bfe-a4b0-11ac5c485ae2")
+		)
+		(instances
+			(project "LEDCUBE_VER0"
+				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_ARGB")
 		(at 214.63 90.17 90)
 		(unit 1)
@@ -10214,6 +9941,88 @@
 			(project "LEDCUBE_VER0"
 				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afe72bf0-3ef3-4c76-aa75-6658d2443551")
+		(property "Reference" "R8"
+			(at 261.62 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500"
+			(at 261.62 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 257.302 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e3aa600-bb94-493b-835d-dcc0c0b99e37")
+		)
+		(pin "2"
+			(uuid "8f8655dd-21b3-4ae8-a070-f3a6cf358e9b")
+		)
+		(instances
+			(project "LEDCUBE_VER0"
+				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10975,9 +10784,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 247.65 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceccc659-b36f-40a6-9f21-b47e349dcab2")
+		(property "Reference" "R9"
+			(at 250.19 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 250.19 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 245.872 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4107f273-4bd2-4a73-b9e0-7be5344a1d85")
+		)
+		(pin "2"
+			(uuid "da35faa5-da9b-4cd4-a4dd-e72bf176389e")
+		)
+		(instances
+			(project "LEDCUBE_VER0"
+				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 62.23 40.64 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10987,7 +10878,7 @@
 		(dnp no)
 		(uuid "d34180f4-b474-4358-aa09-9d630ba835f3")
 		(property "Reference" "#PWR04"
-			(at 62.23 44.45 0)
+			(at 62.23 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +10889,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 60.198 36.83 0)
+			(at 64.262 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11048,6 +10939,91 @@
 			(project "LEDCUBE_VER0"
 				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF9540N")
+		(at 247.65 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc40a091-4c7e-438d-aca5-dbc376106e85")
+		(property "Reference" "Q4"
+			(at 247.65 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRF9540N"
+			(at 247.65 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 249.555 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
+			(at 251.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
+			(at 247.65 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fa05280-7ec0-43c8-99b7-5c4984e6908f")
+		)
+		(pin "1"
+			(uuid "227ebe33-7bf7-4a6c-ba02-a6008aeec1c6")
+		)
+		(pin "3"
+			(uuid "28ccd4ee-3374-4416-a48f-796b441fc802")
+		)
+		(instances
+			(project "LEDCUBE_VER0"
+				(path "/680ecaa6-e24e-4880-b436-460ac654a27b"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
